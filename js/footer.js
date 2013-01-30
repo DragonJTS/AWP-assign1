@@ -1,0 +1,1 @@
+document.write("© Jake Marshall, 2013");
