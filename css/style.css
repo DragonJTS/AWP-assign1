@@ -6,14 +6,14 @@ Site: Jake's Portfolio
 Description: The site's style sheet
 */
 
+body{
+	background-color: #9999FF;
+}
 /*
 -
 Divs
 -
 */
-body{
-	background-color: #9999FF;
-}
 div{
 	background-color: #FFFFFF;
 }
