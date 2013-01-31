@@ -1,1 +1,26 @@
 @CHARSET "ISO-8859-1";
+
+div {
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*
+-
+Image sizing
+-
+*/
+#logo img {
+	width: 225px;
+	height: 150px;
+}
+
+#work img {
+	width: 400px;
+	height: 240px;
+}
+
+.project img {
+	width: 400px;
+	height: 240px;
+}
