@@ -1,3 +1,9 @@
+/*
+File: slideshow.js
+Author: Jake Marshall
+Site: Jake's Portfolio
+Description: Changes the featured work image on the homepage when clicked
+*/
 var step = 1;
 function changeImage() {
 	if (step < 3)
