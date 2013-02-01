@@ -4,19 +4,19 @@ Author: Jake Marshall
 Site: Jake's Portfolio
 Description: Changes the featured work image on the homepage when clicked
  */
-var step = 3;
-function changeImage() {
+var step = 3; //start at end of sequence, so screenshot 1 is displayed when page loads
+function changeImage() { //when called, sets the image to the next one in sequence
 	if (step < 3)
 		step++;
 	else
-		step = 1;
-	document.getElementById("slideviewer").src = "img\\screenshot" + step
+		step = 1; //resets sequence at end
+	document.getElementById("slideviewer").src = "img\\screenshot" + step //changes image
 			+ ".png";
-	setTimeout("changeImage()", 3000);
+	setTimeout("changeImage()", 3000); //runs every 3 seconds
 }
-changeImage();
+changeImage(); //calls itself
 
-function openLink() {
+function openLink() { //opens appropriate link based on currently displayed image
 	if (step == 1)
 		window
 				.open(
